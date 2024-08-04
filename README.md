@@ -14,13 +14,17 @@ O Desafio Beedoo oferece um conjunto de funcionalidades para o módulo de cursos
 
 
 ## User Stories 💁
-As *User Stories* foram desenvolvidas com base nessas três funcionalidades, e suas regras de negócio foram baseadas nos campos disponibilizados na [aplicação sob teste](https://creative-sherbet-a51eac.netlify.app/).
+As *User Stories* foram desenvolvidas com base nessas três funcionalidades de criar, listar e excluir. Suas regras de negócio foram baseadas nos campos disponibilizados na [aplicação sob teste](https://creative-sherbet-a51eac.netlify.app/).
 
 ### 1. Cadastrar novo curso
 
+#### 1.1 User Storie
+  
 **Como** usuário do Beedoo QA Challenge,  
 **Quero** cadastrar um novo curso,  
 **Para que** ele possa ser listado na página de cursos.  
+
+#### 1.2 Regras de Negócio
 
 | #   | REGRAS DE NEGÓCIO |
 |-----|-------------------|
@@ -34,7 +38,7 @@ RN007 | Ao cadastrar um novo curso, o usuário deve receber uma mensagem de conf
 RN008 | Deve se exibir de forma clara qual campo esta inválido
 
 
-**Critérios de Aceite:**
+#### 1.3 Critérios de Aceite
 
 **Dado** que o usuário esta na na página de cadastro de cursos,  
 **Quando** ele preencher todos os campos obrigatórios corretamente,  
@@ -42,12 +46,17 @@ RN008 | Deve se exibir de forma clara qual campo esta inválido
 **Então** o novo curso deve ser criado  
 **E** o curso deve ser exibido na página de listagem de cursos.  
 
+___
 
 ### 2. Listar cursos disponíveis
+
+#### 2.1 User Storie  
 
 **Como** usuário do Beedoo QA Challenge,  
 **Quero** visualizar a lista de cursos disponíveis,  
 **Para que** eu visualizar suas informações.  
+
+#### 2.2 Regras de Negócio  
 
 | #   | REGRAS DE NEGÓCIO |
 |-----|-------------------|
@@ -55,24 +64,28 @@ RN001 | A listagem de cursos deve exibir as informações do curso, como Nome do
 RN002 | Deve possuir um botão com a opção de deletar o curso listado.
 
 
-**Critérios de Aceite:**
+#### 2.3 Critérios de Aceite
 
 **Dado** que o usuário esta na página de listagem de cursos,  
 **Então** todos os cursos cadastrados são exibidos.  
 
-
+___
 ### 3. Excluir Curso
+
+#### 3.1 User Storie
 
 **Como** usuário do Beedoo QA Challenge,  
 **Quero** deletar um curso da cadastrado,  
 **Para que** ele não esteja mais disponível para visualização.  
+
+#### 3.2 Regras de Negócio
 
 | #   | REGRAS DE NEGÓCIO |
 |-----|-------------------|
 RN001 | A ação de deletar deve solicitar uma confirmação antes de excluir o curso permanentemente.
 RN002 | Ao deletar um curso, este deve ser removido da listagem de cursos de forma dinâmica, sem necessidade de se atualizar a página.
 
-**Critérios de Aceite:**
+#### 3.3 Critérios de Aceite
 
 **Dado** que o usuário esta na página de listagem de cursos,  
 **Quando** o usuário deletar um curso,  
