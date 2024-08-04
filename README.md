@@ -6,6 +6,12 @@ O Desafio Beedoo oferece um conjunto de funcionalidades para o módulo de cursos
 2. Exclusão de cursos criados
 3. Listagem dos cursos criados
 
+## Sumário
+1. [User Stories 💁](#user-stories-)
+2. [Plano de Teste 👨‍🔬](#plano-de-teste-)
+3. [Bug Report 🐞](bug-report-)
+4. [Evidências 📂](#evidências-)
+
 
 ## User Stories 💁
 As *User Stories* foram desenvolvidas com base nessas três funcionalidades, e suas regras de negócio foram baseadas nos campos disponibilizados na [aplicação sob teste](https://creative-sherbet-a51eac.netlify.app/).
