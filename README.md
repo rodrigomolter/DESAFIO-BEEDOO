@@ -1,6 +1,16 @@
 # Desafio Beedoo 🐝
 
+O módulo de cursos do Desafio Beedoo consiste nas funcionalidades de **criar**, **excluir** e **listar** 
+
+O Desafio Beedoo oferece um conjunto de funcionalidades para o módulo de cursos. As funcionalidades incluem:
+
+1. Criação de Novos Cursos
+2. Exclusão de cursos criados
+3. Listagem dos cursos criados
+
+
 ## User Stories
+As *User Stories* foram desenvolvidas com base nessas três funcionalidades, e suas regras de negócio foram baseadas nos campos disponibilizados na [aplicação sob teste](https://creative-sherbet-a51eac.netlify.app/).
 
 ### Funcionalidade: Cadastrar novo curso
 
@@ -11,13 +21,13 @@
 | #   | REGRAS DE NEGÓCIO |
 |-----|-------------------|
 RN001 | Devem estar disponíveis os campos "Nome do Curso", "Descrição do Curso", "Instrutor", "URL da Imagem da Capa", "Data de Início", "Data de Fim", "Número de Vagas", e "Tipo de Curso", sendo todos eles obrigatórios.
-RN002 | O campo "Data Início" deve possuir uma data igual ou posterior ao dia que esta sendo realizado o cadastro.
-RN003 | O campo "Data Fim" deve possuir uma data igual ou posterior à "Data Início".
-RN004 | O campo "Número de Vagas" deve ser um número inteiro positivo.
-RN005 | O campo "Tipo do Curso" possuir apenas as opções "Presencial" e "Online".
-RN006 | Caso o Tipo do Curso escolhido for "Presencial", o campo "Endereço" deverá ser exibido e é um campo obrigatório.
-RN007 | Caso o Tipo do Curso escolhido for "Online", o campo "Link de Inscrição" deverá ser exibido e é um campo obrigatório.
-RN008 | Ao cadastrar um novo curso, o usuário deve receber uma mensagem de confirmação de cadastro com sucesso, e ser redirecionado para a página de listagem de cursos.
+RN002 | O campo "Data Fim" deve possuir uma data igual ou posterior à "Data Início".
+RN003 | O campo "Número de Vagas" deve ser um número inteiro positivo.
+RN004 | O campo "Tipo do Curso" possuir apenas as opções "Presencial" e "Online".
+RN005 | Caso o Tipo do Curso escolhido for "Presencial", o campo "Endereço" deverá ser exibido e é um campo obrigatório.
+RN006 | Caso o Tipo do Curso escolhido for "Online", o campo "Link de Inscrição" deverá ser exibido e é um campo obrigatório.
+RN007 | Ao cadastrar um novo curso, o usuário deve receber uma mensagem de confirmação de cadastro com sucesso, e ser redirecionado para a página de listagem de cursos.
+RN008 | Deve se exibir de forma clara qual campo esta inválido
 
 
 **Critérios de Aceite:**
@@ -58,11 +68,22 @@ RN001 | A ação de deletar deve solicitar uma confirmação antes de excluir o 
 RN002 | Ao deletar um curso, este deve ser removido da listagem de cursos de forma dinâmica, sem necessidade de se atualizar a página.
 
 **Critérios de Aceite:**
-**Dado** que estou na página de listagem de cursos,
-**Quando** deletar um curso
+**Dado** que o usuário esta na página de listagem de cursos,
+**Quando** o usuário deletar um curso
 **Então** o curso deve ser removido da listagem.
 
 ## Plano de Teste
 
+O plano de teste conta com o escopo trabalhado junto com a execução dos casos de testes.
+
+[Plano de Teste - Beedoo QA Challenge](https://docs.google.com/spreadsheets/d/1PsArQFZ13y2IsFuKSXQPnaLIRTgnbyjhjXqkFay0ZOE/edit?usp=drive_link)
+
 ## Bug Report
 
+[Bug Report - Beedoo QA Challenge](https://docs.google.com/spreadsheets/d/13fEWkz2abpgmCHLCIdRyCBnkSJEvdTn5P9v120qnrpI/edit?usp=drive_link)
+
+## Evidências
+As evidências dos testes com sucesso e com falhas se encontram dentro das pasta de [Evidências](https://drive.google.com/drive/folders/1cDO_WuWiMwyif5GjNcgRO_3NLtKkPJij?usp=drive_link).<br>
+As evidências também são referênciadas dentro do Bug Report.
+
+[Evidências - Beedoo QA Challenge](https://drive.google.com/drive/folders/1cDO_WuWiMwyif5GjNcgRO_3NLtKkPJij?usp=drive_link)
