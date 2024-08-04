@@ -50,6 +50,7 @@ RN002 | Deve possuir um botão com a opção de deletar o curso listado.
 
 
 **Critérios de Aceite:**
+
 **Dado** que o usuário esta na página de listagem de cursos,  
 **Então** todos os cursos cadastrados são exibidos.  
 
