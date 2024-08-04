@@ -9,7 +9,7 @@ O Desafio Beedoo oferece um conjunto de funcionalidades para o módulo de cursos
 ## Sumário
 1. [User Stories 💁](#user-stories-)
 2. [Plano de Teste 👨‍🔬](#plano-de-teste-)
-3. [Bug Report 🐞](bug-report-)
+3. [Bug Report 🐞](#bug-report-)
 4. [Evidências 📂](#evidências-)
 
 
