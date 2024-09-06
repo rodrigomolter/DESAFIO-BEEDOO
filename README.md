@@ -1,4 +1,11 @@
 # Desafio Beedoo 🐝
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/90227214-deb4-4579-a4e9-33b49065a415" width="600">
+  </br>
+  <p> 
+     O Desafio Beedoo tem o objetivo de avaliar os conhecimentos e habilidades em teste de software.
+  </p>
+</div><br>
 
 O Desafio Beedoo oferece um conjunto de funcionalidades para o módulo de cursos. As funcionalidades incluem:
 
